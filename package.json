@@ -1,18 +1,12 @@
 {
-  "name": "DemoApp",
-  "version": "0.0.1",
-  "private": true,
+  "name": "TheNativeParts",
+  "version": "1.0.0",
   "scripts": {
-    "start": "react-native start",
-    "buildRelease": "cd android && ./gradlew assembleRelease",
-    "installRelease": "cd android && ./gradlew installRelease"
+    "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
-    "@remobile/react-native-splashscreen": "^1.0.3",
-    "alt": "^0.18.1",
-    "react-native": "^0.18.0",
-    "react-native-action-button": "^1.0.8",
-    "react-native-android-statusbar": "^0.1.2",
-    "react-native-material-design": "git+https://github.com/react-native-material-design/react-native-material-design.git"
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "prop-types": "15.6.1"
   }
 }

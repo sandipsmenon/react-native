@@ -1,91 +1,93 @@
-import React, { AppRegistry, Component, Navigator, DrawerLayoutAndroid, ScrollView, View, Text } from 'react-native';
+import React from 'react'
+import {
+  View,
+  Text,
+  TouchableNativeFeedback,
+  Alert,
+  StyleSheet,
+  NativeModules,
+  DeviceEventEmitter,
+  AppRegistry,
+} from 'react-native'
 
-import Navigate from './src/utils/Navigate';
-import { Toolbar } from './src/components';
-import Navigation from './src/scenes/Navigation';
-import Welcome from './src/scenes/Welcome';
+import CustomCounter from './CustomCounter';
 
-class Application extends Component {
+class App extends React.Component {
 
-	static childContextTypes = {
-		drawer: React.PropTypes.object,
-		navigator: React.PropTypes.object
-	};
+  _showToast = () => NativeModules.Toast.show(
+    'Here is a native toast!',
+    NativeModules.Toast.LENGTH_SHORT
+  )
 
-	constructor(props) {
-		super(props);
-		this.state = {
-			drawer: null,
-			navigator: null
-		};
-	}
+  _triggerAlert = () => NativeModules.Alert.trigger()
 
-	getChildContext = () => {
-		return {
-			drawer: this.state.drawer,
-			navigator: this.state.navigator
-		}
-	};
+  _showAlert = message => Alert.alert(message)
 
-	setDrawer = (drawer) => {
-		this.setState({
-			drawer
-		});
-	};
+  _onCountChange = event => {
+    if (this._countFirstChanged) return
+    this._countFirstChanged = true
+    Alert.alert(`The counter changed for the first time!\nIts value is ${event.nativeEvent.count}.`)
+  }
 
-	setNavigator = (navigator) => {
-		this.setState({
-			navigator: new Navigate(navigator)
-		});
-	};
+  componentWillMount() {
+    DeviceEventEmitter.addListener(NativeModules.Alert.EVENT_SHOW, this._showAlert)
+  }
 
-	render() {
-		const { drawer, navigator } = this.state;
-		const navView = React.createElement(Navigation);
+  componentWillUnmount() {
+    DeviceEventEmitter.removeListener(NativeModules.Alert.EVENT_SHOW, this._showAlert)
+  }
 
-		return (
-			<DrawerLayoutAndroid
-				drawerWidth={300}
-				drawerPosition={DrawerLayoutAndroid.positions.Left}
-				renderNavigationView={() => {
-                    if (drawer && navigator) {
-                        return navView;
-                    }
-                    return null;
-                }}
-				ref={(drawer) => { !this.state.drawer ? this.setDrawer(drawer) : null }}
-			>
-				{drawer &&
-				<Navigator
-					initialRoute={Navigate.getInitialRoute()}
-					navigationBar={<Toolbar onIconPress={drawer.openDrawer} />}
-					configureScene={() => {
-                            return Navigator.SceneConfigs.FadeAndroid;
-                        }}
-					ref={(navigator) => { !this.state.navigator ? this.setNavigator(navigator) : null }}
-					renderScene={(route) => {
-                        if (this.state.navigator && route.component) {
-                            return (
-                                <View
-                                    style={styles.scene}
-                                    showsVerticalScrollIndicator={false}>
-                                	<route.component title={route.title} path={route.path} {...route.props} />
-                                </View>
-                            );
-                        }
-                    }}
-				/>
-				}
-			</DrawerLayoutAndroid>
-		);
-	}
+  render() {
+    return (
+      <View style={styles.container} background={TouchableNativeFeedback.SelectableBackground()}>
+        <Text style={styles.hello}>
+          Hello from the React Native side!
+        </Text>
+        <TouchableNativeFeedback onPress={this._showToast}>
+          <View style={styles.button}>
+            <Text style={styles.buttonText}>SHOW NATIVE TOAST FROM REACT</Text>
+          </View>
+        </TouchableNativeFeedback>
+        <TouchableNativeFeedback onPress={this._triggerAlert}>
+          <View style={styles.button}>
+            <Text style={styles.buttonText}>TRIGGER REACT ALERT FROM NATIVE</Text>
+          </View>
+        </TouchableNativeFeedback>
+        <CustomCounter onCountChange={this._onCountChange} numberColor={'black'} style={styles.counter} />
+      </View>
+    )
+  }
+
 }
 
-AppRegistry.registerComponent('DemoApp', () => Application);
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  hello: {
+    margin: 15,
+    fontSize: 26,
+    fontFamily: 'sans-serif-condensed',
+    color: 'black',
+  },
+  button: {
+    padding: 20,
+    margin: 15,
+    backgroundColor: 'lightgray',
+  },
+  buttonText: {
+    fontSize: 18,
+    fontFamily: 'sans-serif-condensed',
+    color: 'black',
+  },
+  counter: {
+    width: 150,
+    height: 150,
+    margin: 15,
+    backgroundColor: 'lightgray',
+  },
+})
 
-const styles = {
-	scene: {
-		flex: 1,
-		marginTop: 56
-	}
-};
+AppRegistry.registerComponent('TheNativeParts', () => App)
