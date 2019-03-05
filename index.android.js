@@ -9,6 +9,13 @@ import {
   DeviceEventEmitter,
   AppRegistry,
 } from 'react-native'
+import React, {Component} from 'react';
+import {Platform, StyleSheet, Text, View, Button} from 'react-native';
+import HeaderComponent from './src/HeaderComponent';
+import BodyComponent from './src/BodyComponent'
+import FooterComponent from './src/FooterComponent'
+import TransactionComponent from './src/TransactionComponent'
+import { Container } from 'native-base';
 
 import CustomCounter from './CustomCounter';
 
@@ -39,23 +46,13 @@ class App extends React.Component {
 
   render() {
     return (
-      <View style={styles.container} background={TouchableNativeFeedback.SelectableBackground()}>
-        <Text style={styles.hello}>
-          Hello from the React Native side!
-        </Text>
-        <TouchableNativeFeedback onPress={this._showToast}>
-          <View style={styles.button}>
-            <Text style={styles.buttonText}>SHOW NATIVE TOAST FROM REACT</Text>
-          </View>
-        </TouchableNativeFeedback>
-        <TouchableNativeFeedback onPress={this._triggerAlert}>
-          <View style={styles.button}>
-            <Text style={styles.buttonText}>TRIGGER REACT ALERT FROM NATIVE</Text>
-          </View>
-        </TouchableNativeFeedback>
-        <CustomCounter onCountChange={this._onCountChange} numberColor={'black'} style={styles.counter} />
-      </View>
-    )
+      <Container>
+        <HeaderComponent />
+        <BodyComponent/>
+        <FooterComponent />
+      </Container>
+     
+    );
   }
 
 }
@@ -65,6 +62,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor: '#F5FCFF',
   },
   hello: {
     margin: 15,
