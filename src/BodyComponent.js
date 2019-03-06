@@ -3,6 +3,7 @@ import { Container, Header, Content, Footer, FooterTab, Button, Icon, Thumbnail,
 import {StyleSheet,Text} from 'react-native'
 import { Col, Row, Grid } from 'react-native-easy-grid';
 import { Avatar } from 'react-native-elements';
+import { withNavigation } from 'react-navigation';
 
 const styles = StyleSheet.create({
     Content: {
@@ -22,7 +23,7 @@ return(
   
 );
 }
-export default bodyComponent;
+export default withNavigation(bodyComponent);
 
 const uri = "https://facebook.github.io/react-native/docs/assets/favicon.png";
 
@@ -53,9 +54,9 @@ customerDetail = (
   
 );
 
-card1 =  (
+card1 = (
     <Card >
-      <CardItem header button onPress={() => alert("This is Card Header")}>
+      <CardItem header button onPress={() => this.props.navigation.navigate('AccountSummary')}>
         <Grid>
           <Row>
             <Col>

@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
 const transactionComponent = props => {
 return(
     <Content style={{backgroundColor: '#ddd'}}>
-        {this.card1}
+        <Text>This is card summary</Text>
     </Content>
   
 );
@@ -50,9 +50,9 @@ customerDetail = (
   
 );
 
-card1 =  (
+card =  (
     <Card >
-      <CardItem header button onPress={() => alert("This is Card Header")}>
+      <CardItem header button onPress={() => alert("This is next summary")}>
         <Grid>
           <Row>
             <Col>

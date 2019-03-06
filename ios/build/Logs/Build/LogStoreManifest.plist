@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>7844518C-9FF2-46BA-ABFF-06277BB2490C</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7844518C-9FF2-46BA-ABFF-06277BB2490C.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>debitcard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>debitcard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project debitcard with scheme debitcard and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>573514822.90465701</real>
+			<key>timeStoppedRecording</key>
+			<real>573514828.59249604</real>
+			<key>title</key>
+			<string>Building project debitcard with scheme debitcard and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>7844518C-9FF2-46BA-ABFF-06277BB2490C</string>
+		</dict>
+		<key>BA1C968B-0F8E-4088-8433-6372EC7F0F0B</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BA1C968B-0F8E-4088-8433-6372EC7F0F0B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>debitcard project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>debitcard</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project debitcard with scheme debitcard and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>573516152.84757996</real>
+			<key>timeStoppedRecording</key>
+			<real>573516158.35332501</real>
+			<key>title</key>
+			<string>Building project debitcard with scheme debitcard and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>BA1C968B-0F8E-4088-8433-6372EC7F0F0B</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
