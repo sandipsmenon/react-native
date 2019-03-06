@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Mar 06 22:49:17 GMT 2019
+#Wed Mar 06 23:11:29 GMT 2019
 56.path=lib/arm64-v8a/libjscexecutor.so
 5.base=/Users/a9303376/Desktop/sandip-github/backup/react-native/android/app/build/intermediates/transforms/mergeJniLibs/release/0
 42.base=/Users/a9303376/Desktop/sandip-github/backup/react-native/android/app/build/intermediates/transforms/mergeJniLibs/release/0
