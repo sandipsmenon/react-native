@@ -30,9 +30,7 @@ class App extends Component {
   render() {
     return (
       <Container>
-        <HeaderComponent />
-        <BodyComponent/>
-        <FooterComponent />
+        <AppContainer/>
       </Container>
      
     );

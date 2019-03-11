@@ -3,8 +3,6 @@ import { Container, Header, Content, Footer, FooterTab, Button, Icon, Thumbnail,
 import {StyleSheet,Text} from 'react-native'
 import { Col, Row, Grid } from 'react-native-easy-grid';
 import { Avatar } from 'react-native-elements';
-import { withNavigation } from 'react-navigation';
-
 const styles = StyleSheet.create({
     Content: {
       backgroundColor: '#ddd',
@@ -13,17 +11,18 @@ const styles = StyleSheet.create({
 
 
 const bodyComponent = props => {
+    console.log("inBody"+props.navigation);
 return(
     <Content style={{backgroundColor: '#ddd'}}>
         {this.customerDetail}
-        {this.card1}
-        {this.card2}
-        {this.card3}
+        {this.card1(props)}
+        {this.card2(props)}
+        {this.card3(props)}
     </Content>
   
 );
 }
-export default withNavigation(bodyComponent);
+export default bodyComponent;
 
 const uri = "https://facebook.github.io/react-native/docs/assets/favicon.png";
 
@@ -35,17 +34,17 @@ customerDetail = (
                     <Avatar 
                         overlayContainerStyle={{backgroundColor: '#dc2a4d'}}
                         rounded size="large" 
-                        title="VT" 
+                        title="MB" 
                     />
                 </Row>
                 <Row style={{justifyContent: 'center'}}>
                     <Text style={{fontSize: 25}}>
-                        Mr. Venkat Thiagarajan
+                        Mr. Michael Bocking
                     </Text>
                 </Row>
                 <Row style={{justifyContent: 'center'}}>
                     <Text style={{ color:'#383738'}}>
-                        108, Roseberry Ave, E12 6PS, London
+                        121, Gladstone Ave, EC2Y 6A2, London
                     </Text>
                 </Row>
             </Grid>
@@ -54,9 +53,9 @@ customerDetail = (
   
 );
 
-card1 = (
+card1 = props =>(
     <Card >
-      <CardItem header button onPress={() => this.props.navigation.navigate('AccountSummary')}>
+      <CardItem header button onPress={() => props.navigation.navigate('AccountSummary')}>
         <Grid>
           <Row>
             <Col>
@@ -91,9 +90,9 @@ card1 = (
   );
   
 
-card2 =  (
+card2 = props => (
     <Card >
-      <CardItem header button onPress={() => alert("This is Card Header")}>
+      <CardItem header button onPress={() => props.navigation.navigate('CardSummary')}>
         <Grid>
           <Row>
             <Col>
@@ -127,9 +126,9 @@ card2 =  (
     </Card>
   );
 
-  card3 =  (
+  card3 = props =>  (
     <Card >
-      <CardItem header button onPress={() => alert("This is Card Header")}>
+      <CardItem header button onPress={() => props.navigation.navigate('LoanSummary')}>
         <Grid>
           <Row>
             <Col>

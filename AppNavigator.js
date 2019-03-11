@@ -1,12 +1,62 @@
-import { createAppContainer, createSwitchNavigator } from 'react-navigation';
+import { createAppContainer, createStackNavigator, createBottomTabNavigator } from 'react-navigation';
 import BodyComponent from './src/BodyComponent';
 import TransactionComponent from './src/TransactionComponent'
+import CardSummary from './src/CreditCardTransaction'
+import Accounts from './src/Home'
+import LoanSummary from './src/LoanTransaction'
+import HeaderComponent from './src/HeaderComponent';
+import Transfer from './src/Transfer';
+import Support from './src/Support';
+import More from './src/More';
 
-const AppSwitchNavigator = createSwitchNavigator({
-    Home: { screen: BodyComponent },
-    AccountSummary: { screen: TransactionComponent }
-  });
+const DashboardTabNavigator = createBottomTabNavigator(
+  {
+    Accounts,
+    Transfer,
+    Support,
+    More
+  },
+  {
+    navigationOptions: ({ navigation }) => {
+      const { routeName } = navigation.state.routes[navigation.state.index];
+      return {
+        headerTitle: routeName
+      };
+    },
+    tabBarOptions: {
+      activeTintColor: '#fff',
+      labelStyle: {
+        fontSize: 15,
+      },
+      style: {
+        backgroundColor: '#00402e',
+      },
+    }
+  }
+);
 
-const AppContainer = createAppContainer(AppSwitchNavigator);
+const AppNavigator = createStackNavigator(
+  {
+    TabNavigator: DashboardTabNavigator,
+    AccountSummary: { screen: TransactionComponent},
+    CardSummary: { screen: CardSummary},
+    LoanSummary: { screen: LoanSummary}
+  },
+  {
+    defaultNavigationOptions: ({ navigation }) => {
+      return {
+        headerStyle: {
+        backgroundColor: '#00402e',
+        },
+        headerTitleStyle: {
+          fontWeight: 'bold',
+          color: '#fff'
+        },
+      };
+    }
+  }
+);
+
+const AppContainer = createAppContainer(AppNavigator);
 
 export default AppContainer;
