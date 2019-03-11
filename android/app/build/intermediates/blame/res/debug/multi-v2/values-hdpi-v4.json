@@ -1,19 +1,11 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "/Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/a9303376/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/ffaf9a9ffa2e3d7d953da7f70ec71443/res/values-hdpi/values-hdpi.xml",
+                    "source": "/Users/a9303376/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/818fbededa91c6c1de060ae07acad70c/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "286",
-                        "endLines": "8",
-                        "endColumns": "13",
-                        "endOffsets": "558"
-                    },
-                    "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",

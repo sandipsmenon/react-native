@@ -1,96 +1,162 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-26:12
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/5a944e51929d1e8f51cc7d8287655c19/AndroidManifest.xml:2:1-15:12
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/ffaf9a9ffa2e3d7d953da7f70ec71443/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-v4:23.0.1] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/769c2117682d01442b566788cd67d6ad/AndroidManifest.xml:17:1-24:12
+ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-31:12
+MERGED from [com.android.support:design:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/54ade3a16326f68cd60b3e15a6bd5f70/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.volley:volley:1.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/7a80d63c303189c51cb92f946fc7b339/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/99dad3c5ebd6d2ff62cdf9a4dbbf4257/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/818fbededa91c6c1de060ae07acad70c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/c38a9d63c1452fef45160a1bda18e13d/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5e002043d2d6493d05611894f9e5b6e3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3bc4f970ecd93dd99e3395c93da31cba/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/10648437f102e830dfcb3343a0472a12/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/b31771a070b5363f6c5e4c92eb107db5/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/c32de1eb517186b919b6660a14cc5695/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/124f0a81c575a05a6fe11cccd4a359a8/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d7179d6dc2f4d426f6e07675b92700c6/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/eda8df7823eed34b1961822dd24e9736/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c3b2fe2e544f58ce7eab0997f78d4ee9/AndroidManifest.xml:17:1-31:12
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/694b15bf98e97793cbc11cea73b6f4fe/AndroidManifest.xml:10:1-18:12
 MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/9e829a3a3694573a76ae127f68c6ddfe/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/2800c731de8f8a2911f2554c36455261/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/58a612a298a4dcd9244c2f7939f577d4/AndroidManifest.xml:1:1-4:12
 MERGED from [org.webkit:android-jsc:r174650] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/918d6ed7b3ce125c1a6fb2f4231cc637/AndroidManifest.xml:1:1-3:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b8a1f8f0b0f3f6d1b7b098150677b85e/AndroidManifest.xml:17:1-30:12
 MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/37e4e6ff2f5d15d8c42bfab98a7fb9dd/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/900f9d87d1f70446198058cf8a1762fe/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/75f2964bbcb6b88cb15fa34af3f54692/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/2ffdd29c9450dc031e96350823794ff4/AndroidManifest.xml:2:1-9:12
-INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-31:12
 	package
-		ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:3:11-50
-		INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:3:11-50
+		INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-26:12
-		INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-26:12
-		INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:5:5-66
+ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:5:5-66
 	android:name
-		ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:7:5-24:19
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/5a944e51929d1e8f51cc7d8287655c19/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/5a944e51929d1e8f51cc7d8287655c19/AndroidManifest.xml:13:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/ffaf9a9ffa2e3d7d953da7f70ec71443/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/ffaf9a9ffa2e3d7d953da7f70ec71443/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/769c2117682d01442b566788cd67d6ad/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/769c2117682d01442b566788cd67d6ad/AndroidManifest.xml:22:5-20
+ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:7:5-29:19
+MERGED from [com.android.support:design:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/54ade3a16326f68cd60b3e15a6bd5f70/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/54ade3a16326f68cd60b3e15a6bd5f70/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.volley:volley:1.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/7a80d63c303189c51cb92f946fc7b339/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/7a80d63c303189c51cb92f946fc7b339/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/99dad3c5ebd6d2ff62cdf9a4dbbf4257/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/99dad3c5ebd6d2ff62cdf9a4dbbf4257/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/818fbededa91c6c1de060ae07acad70c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/818fbededa91c6c1de060ae07acad70c/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/c38a9d63c1452fef45160a1bda18e13d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/c38a9d63c1452fef45160a1bda18e13d/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5e002043d2d6493d05611894f9e5b6e3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5e002043d2d6493d05611894f9e5b6e3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3bc4f970ecd93dd99e3395c93da31cba/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3bc4f970ecd93dd99e3395c93da31cba/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/10648437f102e830dfcb3343a0472a12/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/10648437f102e830dfcb3343a0472a12/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/b31771a070b5363f6c5e4c92eb107db5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/b31771a070b5363f6c5e4c92eb107db5/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/c32de1eb517186b919b6660a14cc5695/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/c32de1eb517186b919b6660a14cc5695/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/124f0a81c575a05a6fe11cccd4a359a8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/124f0a81c575a05a6fe11cccd4a359a8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d7179d6dc2f4d426f6e07675b92700c6/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d7179d6dc2f4d426f6e07675b92700c6/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/eda8df7823eed34b1961822dd24e9736/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/eda8df7823eed34b1961822dd24e9736/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c3b2fe2e544f58ce7eab0997f78d4ee9/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c3b2fe2e544f58ce7eab0997f78d4ee9/AndroidManifest.xml:25:5-29:19
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/58a612a298a4dcd9244c2f7939f577d4/AndroidManifest.xml:3:3-17
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/58a612a298a4dcd9244c2f7939f577d4/AndroidManifest.xml:3:3-17
 MERGED from [org.webkit:android-jsc:r174650] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/918d6ed7b3ce125c1a6fb2f4231cc637/AndroidManifest.xml:2:3-17
 MERGED from [org.webkit:android-jsc:r174650] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/918d6ed7b3ce125c1a6fb2f4231cc637/AndroidManifest.xml:2:3-17
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b8a1f8f0b0f3f6d1b7b098150677b85e/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b8a1f8f0b0f3f6d1b7b098150677b85e/AndroidManifest.xml:24:5-28:19
 	android:label
-		ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:12:9-40
-activity#com.example.rn.thenativeparts.NativeActivity
-ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:14:9-19:20
+		ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:13:9-53
+	android:networkSecurityConfig
+		ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:14:9-69
+activity#com.example.rn.thenativeparts.LoginActivity
+ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:16:9-22:20
+	android:theme
+		ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:17:13-57
 	android:name
-		ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:14:19-49
+		ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:16:19-48
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:15:13-18:29
+ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:18:13-21:29
 action#android.intent.action.MAIN
-ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:16:17-68
+ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:19:17-68
 	android:name
-		ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:17:17-76
+ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:20:17-76
 	android:name
-		ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:17:27-74
+		ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.example.rn.thenativeparts.HomeActivity
+ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:24:9-50
+	android:name
+		ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:24:19-47
 activity#com.example.rn.thenativeparts.ReactActivity
-ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:21:9-51
+ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:26:9-51
 	android:name
-		ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:21:19-48
+		ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:26:19-48
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:23:9-85
+ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:28:9-85
 	android:name
-		ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:23:19-83
+		ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:28:19-83
 uses-sdk
-INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/5a944e51929d1e8f51cc7d8287655c19/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.55.4] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/5a944e51929d1e8f51cc7d8287655c19/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/ffaf9a9ffa2e3d7d953da7f70ec71443/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/ffaf9a9ffa2e3d7d953da7f70ec71443/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/769c2117682d01442b566788cd67d6ad/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/769c2117682d01442b566788cd67d6ad/AndroidManifest.xml:20:5-43
+INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/54ade3a16326f68cd60b3e15a6bd5f70/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/54ade3a16326f68cd60b3e15a6bd5f70/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.volley:volley:1.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/7a80d63c303189c51cb92f946fc7b339/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/7a80d63c303189c51cb92f946fc7b339/AndroidManifest.xml:7:5-43
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/99dad3c5ebd6d2ff62cdf9a4dbbf4257/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/99dad3c5ebd6d2ff62cdf9a4dbbf4257/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/818fbededa91c6c1de060ae07acad70c/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/818fbededa91c6c1de060ae07acad70c/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/c38a9d63c1452fef45160a1bda18e13d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/c38a9d63c1452fef45160a1bda18e13d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5e002043d2d6493d05611894f9e5b6e3/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5e002043d2d6493d05611894f9e5b6e3/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3bc4f970ecd93dd99e3395c93da31cba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3bc4f970ecd93dd99e3395c93da31cba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/10648437f102e830dfcb3343a0472a12/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/10648437f102e830dfcb3343a0472a12/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/b31771a070b5363f6c5e4c92eb107db5/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/b31771a070b5363f6c5e4c92eb107db5/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/c32de1eb517186b919b6660a14cc5695/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/c32de1eb517186b919b6660a14cc5695/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/124f0a81c575a05a6fe11cccd4a359a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/124f0a81c575a05a6fe11cccd4a359a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d7179d6dc2f4d426f6e07675b92700c6/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d7179d6dc2f4d426f6e07675b92700c6/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/eda8df7823eed34b1961822dd24e9736/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/eda8df7823eed34b1961822dd24e9736/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c3b2fe2e544f58ce7eab0997f78d4ee9/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c3b2fe2e544f58ce7eab0997f78d4ee9/AndroidManifest.xml:21:5-23:58
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/694b15bf98e97793cbc11cea73b6f4fe/AndroidManifest.xml:14:5-16:41
 MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/694b15bf98e97793cbc11cea73b6f4fe/AndroidManifest.xml:14:5-16:41
 MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/9e829a3a3694573a76ae127f68c6ddfe/AndroidManifest.xml:5:5-7:41
@@ -99,6 +165,8 @@ MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/a9303376/.g
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/2800c731de8f8a2911f2554c36455261/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/58a612a298a4dcd9244c2f7939f577d4/AndroidManifest.xml:2:3-70
 MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/58a612a298a4dcd9244c2f7939f577d4/AndroidManifest.xml:2:3-70
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b8a1f8f0b0f3f6d1b7b098150677b85e/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b8a1f8f0b0f3f6d1b7b098150677b85e/AndroidManifest.xml:20:5-22:41
 MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/37e4e6ff2f5d15d8c42bfab98a7fb9dd/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/37e4e6ff2f5d15d8c42bfab98a7fb9dd/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/900f9d87d1f70446198058cf8a1762fe/AndroidManifest.xml:5:5-7:41
@@ -107,23 +175,59 @@ MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/a9303376/.grad
 MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/75f2964bbcb6b88cb15fa34af3f54692/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/2ffdd29c9450dc031e96350823794ff4/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/2ffdd29c9450dc031e96350823794ff4/AndroidManifest.xml:5:5-7:41
-INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/54ade3a16326f68cd60b3e15a6bd5f70/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
-uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from [com.facebook.react:react-native:0.55.4] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/5a944e51929d1e8f51cc7d8287655c19/AndroidManifest.xml:11:5-78
+		INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/54ade3a16326f68cd60b3e15a6bd5f70/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/818fbededa91c6c1de060ae07acad70c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/818fbededa91c6c1de060ae07acad70c/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/c38a9d63c1452fef45160a1bda18e13d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/c38a9d63c1452fef45160a1bda18e13d/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5e002043d2d6493d05611894f9e5b6e3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5e002043d2d6493d05611894f9e5b6e3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3bc4f970ecd93dd99e3395c93da31cba/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/3bc4f970ecd93dd99e3395c93da31cba/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/10648437f102e830dfcb3343a0472a12/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/10648437f102e830dfcb3343a0472a12/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/b31771a070b5363f6c5e4c92eb107db5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/b31771a070b5363f6c5e4c92eb107db5/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/c32de1eb517186b919b6660a14cc5695/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/c32de1eb517186b919b6660a14cc5695/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/124f0a81c575a05a6fe11cccd4a359a8/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/124f0a81c575a05a6fe11cccd4a359a8/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d7179d6dc2f4d426f6e07675b92700c6/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d7179d6dc2f4d426f6e07675b92700c6/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/eda8df7823eed34b1961822dd24e9736/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/eda8df7823eed34b1961822dd24e9736/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c3b2fe2e544f58ce7eab0997f78d4ee9/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/c3b2fe2e544f58ce7eab0997f78d4ee9/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/54ade3a16326f68cd60b3e15a6bd5f70/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.facebook.react:react-native:0.55.4] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/5a944e51929d1e8f51cc7d8287655c19/AndroidManifest.xml:11:22-75
+		ADDED from [com.android.support:design:26.1.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/54ade3a16326f68cd60b3e15a6bd5f70/AndroidManifest.xml:27:13-51
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [com.facebook.react:react-native:0.55.4] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/99dad3c5ebd6d2ff62cdf9a4dbbf4257/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from [com.facebook.react:react-native:0.55.4] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/99dad3c5ebd6d2ff62cdf9a4dbbf4257/AndroidManifest.xml:11:22-75
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-31:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-31:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/a9303376/Desktop/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/a9303376/Desktop/venkat-backup/react-native-the-native-parts-android/android/app/src/main/AndroidManifest.xml:2:1-31:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b8a1f8f0b0f3f6d1b7b098150677b85e/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b8a1f8f0b0f3f6d1b7b098150677b85e/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/a9303376/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/b8a1f8f0b0f3f6d1b7b098150677b85e/AndroidManifest.xml:26:13-58

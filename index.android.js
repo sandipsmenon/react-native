@@ -1,57 +1,26 @@
-import React from 'react'
 import {
-  View,
-  Text,
-  TouchableNativeFeedback,
-  Alert,
   StyleSheet,
-  NativeModules,
-  DeviceEventEmitter,
   AppRegistry,
 } from 'react-native'
-import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, Button} from 'react-native';
+import React from 'react';
 import HeaderComponent from './src/HeaderComponent';
-import BodyComponent from './src/BodyComponent'
-import FooterComponent from './src/FooterComponent'
-import TransactionComponent from './src/TransactionComponent'
+import BodyComponent from './src/BodyComponent';
+import FooterComponent from './src/FooterComponent';
 import { Container } from 'native-base';
 
-import CustomCounter from './CustomCounter';
 
 class App extends React.Component {
 
-  _showToast = () => NativeModules.Toast.show(
-    'Here is a native toast!',
-    NativeModules.Toast.LENGTH_SHORT
-  )
 
-  _triggerAlert = () => NativeModules.Alert.trigger()
-
-  _showAlert = message => Alert.alert(message)
-
-  _onCountChange = event => {
-    if (this._countFirstChanged) return
-    this._countFirstChanged = true
-    Alert.alert(`The counter changed for the first time!\nIts value is ${event.nativeEvent.count}.`)
-  }
-
-  componentWillMount() {
-    DeviceEventEmitter.addListener(NativeModules.Alert.EVENT_SHOW, this._showAlert)
-  }
-
-  componentWillUnmount() {
-    DeviceEventEmitter.removeListener(NativeModules.Alert.EVENT_SHOW, this._showAlert)
-  }
 
   render() {
     return (
       <Container>
         <HeaderComponent />
-        <BodyComponent/>
+        <BodyComponent />
         <FooterComponent />
       </Container>
-     
+
     );
   }
 
