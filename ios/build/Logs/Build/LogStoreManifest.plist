@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>7844518C-9FF2-46BA-ABFF-06277BB2490C</key>
+		<key>285DBDBC-8D53-4C4B-8856-E4471E86081B</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>7844518C-9FF2-46BA-ABFF-06277BB2490C.xcactivitylog</string>
+			<string>285DBDBC-8D53-4C4B-8856-E4471E86081B.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,15 +27,15 @@
 			<key>signature</key>
 			<string>Building project debitcard with scheme debitcard and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>573514822.90465701</real>
+			<real>573989932.836905</real>
 			<key>timeStoppedRecording</key>
-			<real>573514828.59249604</real>
+			<real>573989934.69763899</real>
 			<key>title</key>
 			<string>Building project debitcard with scheme debitcard and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>7844518C-9FF2-46BA-ABFF-06277BB2490C</string>
+			<string>285DBDBC-8D53-4C4B-8856-E4471E86081B</string>
 		</dict>
-		<key>BA1C968B-0F8E-4088-8433-6372EC7F0F0B</key>
+		<key>B69D1D33-108B-4A7F-981E-D94F26033D4C</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -44,7 +44,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>BA1C968B-0F8E-4088-8433-6372EC7F0F0B.xcactivitylog</string>
+			<string>B69D1D33-108B-4A7F-981E-D94F26033D4C.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
@@ -56,13 +56,13 @@
 			<key>signature</key>
 			<string>Building project debitcard with scheme debitcard and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>573516152.84757996</real>
+			<real>573927420.60289204</real>
 			<key>timeStoppedRecording</key>
-			<real>573516158.35332501</real>
+			<real>573927421.42588496</real>
 			<key>title</key>
 			<string>Building project debitcard with scheme debitcard and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>BA1C968B-0F8E-4088-8433-6372EC7F0F0B</string>
+			<string>B69D1D33-108B-4A7F-981E-D94F26033D4C</string>
 		</dict>
 	</dict>
 </dict>
