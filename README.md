@@ -7,7 +7,6 @@ A demo app that showcases how to:
 - Invoke a native method from JavaScript
 - Trigger a JavaScript method from native
 
-![Screenshot](/screenshot.png)
 
 ## How to run it
 
