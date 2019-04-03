@@ -5,20 +5,21 @@ import CardSummary from './src/CreditCardTransaction'
 import Accounts from './src/Home'
 import LoanSummary from './src/LoanTransaction'
 import HeaderComponent from './src/HeaderComponent';
-import Transfer from './src/Transfer';
+import Summary from './src/Transfer';
 import Support from './src/Support';
 import More from './src/More';
 
 const DashboardTabNavigator = createBottomTabNavigator(
   {
     Accounts,
-    Transfer,
+    Summary,
     Support,
     More
   },
   {
     navigationOptions: ({ navigation }) => {
       const { routeName } = navigation.state.routes[navigation.state.index];
+     
       return {
         headerTitle: routeName
       };
